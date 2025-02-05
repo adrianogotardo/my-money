@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "build": "npm i",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "start-forever": "forever start src/index.js"
   },
   "keywords": [],
   "author": "",
